@@ -1,0 +1,48 @@
+/* About Section Styling */
+.about {
+    background: rgba(0, 0, 0, 0.5); /* Slightly darkened background */
+    color: white;
+    padding: 50px 20px;
+    min-height: 100vh;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .about-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .info-item {
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background for each item */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+  }
+  
+  .info-item strong {
+    font-weight: bold;
+  }
+  
+  .info-item a {
+    color: #fff; /* Links will be white */
+    text-decoration: none;
+  }
+  
+  .info-item a:hover {
+    text-decoration: underline;
+  }

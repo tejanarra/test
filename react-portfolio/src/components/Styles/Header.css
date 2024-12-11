@@ -1,0 +1,30 @@
+/* Ensure header stays on top and fixed */
+header {
+    z-index: 999; /* Ensure header stays on top */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    color: white;
+}
+
+/* Optional: Styling for active link */
+.nav-link.active-link {
+    color: #008cba; /* Color for active link */
+    font-weight: bold; /* Highlight active link */
+    transition: color 0.3s ease;
+}
+
+/* Optional: Style for nav items */
+.nav-item {
+    margin-right: 20px; /* Space between navigation links */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .nav-item {
+        margin-right: 10px; /* Reduce space on small screens */
+    }
+}
