@@ -1,0 +1,18 @@
+input{
+  border-radius:20px; !important
+  height: calc(2em + 2px + 0.75rem) !important; 
+}
+
+form-control{
+  border-radius:20px; !important
+}
+
+body{
+  color: black;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.50px;
+  word-wrap: break-word
+}
