@@ -1,4 +1,4 @@
-col-form-label{
+form-control{
   border-radius:10px; 
   height: calc(2em + 2px + 0.75rem) !important; 
 }
